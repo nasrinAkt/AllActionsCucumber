@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Verify Notice details display when click view",
+        "description": "",
+        "id": ";verify-notice-details-display-when-click-view",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3035270800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Open school application",
+            "match": {
+              "location": "all.open_school_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1085532400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click notice link",
+            "match": {
+              "location": "all.click_notice_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click view",
+            "match": {
+              "location": "all.click_view()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Verify Notice details display when click view",
+            "match": {
+              "location": "all.verify_Notice_details_display_when_click_view()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@tag4"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "all.feature"
+  }
+]
